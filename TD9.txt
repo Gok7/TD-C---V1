@@ -1,0 +1,37 @@
+ex1 : genérateur de code C : un tableau nommé pseudo_code d'une taille maxi de 10000 éléments contient des caracères représentant un pseudo-code. Il faut transformer le contenu de ce tableau en un code c qui sera stocké dans le tableau Code_C. la transformation se fera de la façon suivante :
+
+une suite de caractères représentant le mot DEBUT devra être remplacé par le caractère {
+________________FIN____________________}
+________________<-_____________________=
+________________=_____________________==
+
+ex2:
+soit le tableau précedent Code_C contenant un code source écrit en C. réalisez un pseudo qui vérifie la cohérence des ouvertures et des fermetures des accolades { et }
+Il y a "n"  accolade(s) { en trop ou
+Il y  a "n" accolades } en trop ou 
+Prog OK !
+
+ex 3 réalisez un pseudo qui affiche le menu suivant :
+
+1)introduction de données.
+2)symétrie.
+3)rotation à droite.
+4)rotation à gauche.
+5)FIN
+
+l'utilisateur est invité à introduire son choix (seuls les choix 1,2,3,4,5 sont valables)
+le programme doit s'éxécuter jusqu'à que l'utilisateur choisisse FIN.
+option 1 permet à l'utilisateur jusqu'à 20 caractères dans un tableau.
+. s'il désire en introduire moins de 20, il devra rentrer le caractère "*".
+exemple : ZXCVBNM*
+
+option 2 transforme le contenu du tableau en renversant l'ordre des caractères : 
+MNBVCXZ
+
+option 3 transforme le contenu du tableau en effectuant une rotation à droite des caractères:
+MZXCVBN
+
+option 4 transforme le contenu du tableau en effectuant une rotation à gauche des caractères 
+
+XCVBNMZ
+
